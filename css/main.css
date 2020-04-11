@@ -1,0 +1,9 @@
+.emphasise {
+	color: red;
+	font-size: 40px;
+}
+.rect {
+	border: 1px solid black;
+	padding: 2%;
+	background-color: yellow;
+}
