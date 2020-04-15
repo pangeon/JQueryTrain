@@ -7,3 +7,12 @@
 	padding: 2%;
 	background-color: yellow;
 }
+form > table {
+	border: 1px solid black; 
+	background-color: yellow; 
+	padding: 2%;
+}
+.toggleForm {
+	border: 1px solid red;
+	cursor: pointer;
+}
