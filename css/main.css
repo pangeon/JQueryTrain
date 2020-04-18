@@ -7,16 +7,26 @@
 	padding: 2%;
 	background-color: yellow;
 }
-form > table {
+#gui-friends, form > table {
 	border: 1px solid black; 
 	background-color: yellow; 
 	padding: 2%;
+	margin: 4%;
+}
+#gui-friends {
+	text-align: center;
 }
 .toggleForm {
 	border: 1px solid red;
 	cursor: pointer;
 }
-#friends, td, th {
+#friends, #friends td, #friends th {
 	border: 1px solid black;
 	margin: 4%;
+}
+/* tbody > tr:last-child > td:first-child {
+	background-color: coral;
+} */
+tbody > tr:last-child {
+	background-color: cornflowerblue;
 }
