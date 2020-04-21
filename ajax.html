@@ -1,10 +1,24 @@
 <html>
 	<head>
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/dom.js"></script>
-		<title>Dom</title>
+		<script type="text/javascript" src="js/ajax.js"></script>
+		<script>
+			$(document).ready(
+				function() {
+					$('#MyButton').click(
+						function() {
+							$('#OutputDiv').load('menu.html');
+						}
+					);
+				}
+			);
+		</script>
+        <link rel="stylesheet" href="css/main.css">
+		<title>Ajax</title>
 	</head>
 	<body>
+		<button id="MyButton">Click</button>
+		<div id="OutputDiv"></div>
 		<nav>
 			<ul>
 				<li><a href="index.html">Start</a></li>
@@ -16,9 +30,5 @@
 			</ul>
 		</nav>
 		<hr />
-		<p id="hello">Hello jQuery !</p>
-		<h1>Red</h1>
-		<h1>Green</h1>
-		<h1>Blue</h1>
 	<body>	
 </html>
