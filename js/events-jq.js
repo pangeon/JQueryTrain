@@ -47,7 +47,7 @@ function keyPress() {
 	$('#button_key').on('keydown mousedown', 
 		function(e) {
 			$('span').html(e.type + ": " + e.which);
-			if(e.keyCode == 13) {
+			if(e.keyCode === 13) {
 				$('span').append('<br />Click Enter');
 			}
 			switch(e.button) {
