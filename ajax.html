@@ -2,33 +2,12 @@
 	<head>
 		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/ajax.js"></script>
-		<script>
-			$(document).ready(
-				function() {
-					$('#MyButton').click(
-						function() {
-							$('#OutputDiv').load('templates/menu.html');
-						}
-					);
-				}
-			);
-		</script>
-        <link rel="stylesheet" href="css/main.css">
+		<script type="text/javascript" src="js/menu.js"></script>
+		<link rel="stylesheet" href="css/main.css">
 		<title>Ajax</title>
 	</head>
 	<body>
-		<button id="MyButton">Click</button>
-		<div id="OutputDiv"></div>
-		<nav>
-			<ul>
-				<li><a href="index.html">Start</a></li>
-				<li><a href="dom.html">Dom manipulation</a></li>
-				<li><a href="builder.html">Builder</a></li>
-				<li><a href="events.html">Events</a></li>
-				<li><a href="table.html">Table</a></li>
-				<li><a href="ajax.html">Ajax</a></li>
-			</ul>
-		</nav>
+		<nav></nav>
 		<hr />
 	</body>
 </html>
