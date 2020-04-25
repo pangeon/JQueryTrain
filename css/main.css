@@ -24,9 +24,6 @@
 	border: 1px solid black;
 	margin: 4%;
 }
-/* tbody > tr:last-child > td:first-child {
-	background-color: coral;
-} */
-tbody > tr:last-child {
-	background-color: cornflowerblue;
-}
+/*tbody > tr:last-child {*/
+/*	background-color: cornflowerblue;*/
+/*}*/

@@ -17,5 +17,6 @@ II. Technology stack:
        Date: 2019-05-01T21:04Z
 2) CSS
 3) HTML
+
 III. Version info:
 1) Last update 22.04.2020 
