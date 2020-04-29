@@ -24,6 +24,7 @@
 	border: 1px solid black;
 	margin: 4%;
 }
-/*tbody > tr:last-child {*/
-/*	background-color: cornflowerblue;*/
-/*}*/
+#content-right > img {
+	border: 2px solid red;
+	border-radius: 20%;
+}
